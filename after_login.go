@@ -22,8 +22,7 @@ func AfterLogin(ctx context.Context, i int) error {
 	billingSelector := `#protal-manager > div > section > section > aside > div > ul > li.ant-menu-submenu.ant-menu-submenu-inline.billingService_joyride > div`
 	myBillingSelector := `#\/billingService\$Menu > li > a`
 	commonUserSelector := `#protal-manager > div > section > section > section > main > div.payment___3u_9m > div.search___1lnYC.searchCard > div > div.ant-card-body > div > form > div:nth-child(1) > div:nth-child(2) > div > div > div.ant-col.ant-form-item-control-wrapper > div > span > div > button`
-	checkSelector := `body > div:nth-child(9) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-body > div.table___2hrYQ > div > div > div > div > div > div > div.ant-table-body > table > tbody > tr:nth-child(1) > td.ant-table-selection-column > span > label > span > input`
-	                  body > div:nth-child(10) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-body > div.table___2hrYQ > div > div > div > div > div > div > div.ant-table-body > table > tbody > tr:nth-child(1) > td.ant-table-selection-column > span > label > span > input
+	checkSelector := `body > div:nth-child(10) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-body > div.table___2hrYQ > div > div > div > div > div > div > div.ant-table-body > table > tbody > tr:nth-child(1) > td.ant-table-selection-column > span > label > span > input`
 	yesCheckSelector := `body > div:nth-child(9) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-body > div.okButton___1Iel_ > button`
 	queryYesCheckSelector := `#search`
 
